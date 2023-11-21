@@ -1,24 +1,42 @@
-[
-  {
-    "id": 1,
-    "imageUrl": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg",
-    "name": "xayom",
-    "companyName": "ajsfhkaj fkjha kjfhakj fhkjahsfkjhaskfj hakjsfhkj",
-    "albumImages": [
-      "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg",
-      "https://previews.123rf.com/images/bravespirit/bravespirit2306/bravespirit230604902/207270832-imprint-of-the-house-on-the-water-upside-down-house-generative-ai.jpg"
-    ],
-    "description": "haskjfh akjhfk jahfkjh akjsfh akjsfhkja fhskjhaksfjhakjsfhkajshfkjah"
-  },
-  {
-    "id": 2,
-    "imageUrl": "https://img.freepik.com/premium-photo/planet-with-moon-it_901003-4892.jpg",
-    "name": "xayom2",
-    "companyName": "hkjahsfkjhaskfj hakjsfhkj",
-    "albumImages": [
-      "https://img.freepik.com/premium-photo/face-beautiful-young-woman-with-colorful-hud-interface-near-her-eye-biometric-verification-interface-concept-face-recognition-hi-tech-white-background-toned-image-double-exposure_780608-19172.jpg",
-      "https://img.freepik.com/premium-photo/planet-with-moon-it_901003-4892.jpg"
-    ],
-    "description": "description xayom2 hfkjh akjsfh akjsfhkja fhskjhaksfjhakjsfhkajshfkjah"
-  }
-]
+{
+  "users": [
+    {
+      "id": 1,
+      "imageUrl": "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg",
+      "name": "xayom",
+      "companyName": "ajsfhkaj fkjha kjfhakj fhkjahsfkjhaskfj hakjsfhkj",
+      "albumImages": [
+        "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg",
+        "https://previews.123rf.com/images/bravespirit/bravespirit2306/bravespirit230604902/207270832-imprint-of-the-house-on-the-water-upside-down-house-generative-ai.jpg"
+      ],
+      "description": "haskjfh akjhfk jahfkjh akjsfh akjsfhkja fhskjhaksfjhakjsfhkajshfkjah"
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://img.freepik.com/premium-photo/planet-with-moon-it_901003-4892.jpg",
+      "name": "xayom2",
+      "companyName": "hkjahsfkjhaskfj hakjsfhkj",
+      "albumImages": [
+        "https://img.freepik.com/premium-photo/face-beautiful-young-woman-with-colorful-hud-interface-near-her-eye-biometric-verification-interface-concept-face-recognition-hi-tech-white-background-toned-image-double-exposure_780608-19172.jpg",
+        "https://img.freepik.com/premium-photo/planet-with-moon-it_901003-4892.jpg"
+      ],
+      "description": "description xayom2 hfkjh akjsfh akjsfhkja fhskjhaksfjhakjsfhkajshfkjah"
+    }
+  ],
+  "albums": [
+    {
+      "id": 1,
+      "albumImages": [
+        "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg",
+        "https://previews.123rf.com/images/bravespirit/bravespirit2306/bravespirit230604902/207270832-imprint-of-the-house-on-the-water-upside-down-house-generative-ai.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "albumImages": [
+        "https://img.freepik.com/premium-photo/face-beautiful-young-woman-with-colorful-hud-interface-near-her-eye-biometric-verification-interface-concept-face-recognition-hi-tech-white-background-toned-image-double-exposure_780608-19172.jpg",
+        "https://img.freepik.com/premium-photo/planet-with-moon-it_901003-4892.jpg"
+      ]
+    }
+  ]
+}
