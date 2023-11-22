@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test_talantix/app/utils.dart';
 import 'package:test_talantix/features/data/models/user.dart';
 
 class UserCard extends StatelessWidget {
@@ -10,18 +11,24 @@ class UserCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
+      mainAxisSize: MainAxisSize.max,
       children: [
-        Container(
-          width: double.infinity,
-          height: 400,
-          decoration: BoxDecoration(
-            borderRadius: const BorderRadius.all(Radius.circular(16)),
-            image: DecorationImage(
-              fit: BoxFit.cover,
-              image: NetworkImage(
-                user.imageUrl,
+        GestureDetector(
+          onTap: () {
+            showImagesDialog(context, user.albumImages);
+          },
+          child: Container(
+            width: double.infinity,
+            height: 400,
+            decoration: BoxDecoration(
+              borderRadius: const BorderRadius.all(Radius.circular(16)),
+              image: DecorationImage(
+                fit: BoxFit.cover,
+                image: NetworkImage(
+                  user.imageUrl,
+                )
               )
-            )
+            ),
           ),
         ),
         const SizedBox(
@@ -36,21 +43,19 @@ class UserCard extends StatelessWidget {
         const SizedBox(
           height: 8,
         ),
-        Expanded(
-          child: Text(
-            user.companyName,
-            maxLines: 1,
-            overflow: TextOverflow.ellipsis,
-            style: const TextStyle(
-              fontSize: 16,
-            ),
+        Text(
+          user.companyName,
+          maxLines: 1,
+          overflow: TextOverflow.ellipsis,
+          style: const TextStyle(
+            fontSize: 16,
           ),
         ),
         const SizedBox(
           height: 8,
         ),
         Text(
-          user.name,
+          user.description,
           style: const TextStyle(
             fontSize: 14,
           ),
